@@ -8,7 +8,7 @@ URL:            https://stacer.quentium.fr/
 Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      x86_64
-Requires:       qt6-qtbase qt6-qtcharts qt6-qtsvg qt6-qtbase-gui glibc systemd curl
+Requires:       qt6-qtbase qt6-qtbase-gui qt6-qtcharts qt6-qtsvg glibc systemd curl
 
 %description
 Monitor your system (CPU, memory, disk) in a graphical application (Qt).
