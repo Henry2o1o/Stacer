@@ -1,3 +1,16 @@
+stacer (1.6.2-1) stable; urgency=medium
+
+  * Hotfix for OpenGl & Vulkan direct dependency in Ubuntu 22.04 and lower
+
+  * Wait for global thread to finish when closing app instantly #26
+  * Fix future Qt deprecation if file cannot be opened
+  * Refacto dependencies & reorder & remove useless opengl
+  * Use colorful logo in system tray for white themes
+  * Add missing app translation #29
+  * New Crowdin updates (Thanks @adem4ik & Kabir) #25
+
+ -- Quentin Lienhardt <pro@quentium.fr>  Wed, 21 Jan 2026 15:00:00 +0100
+
 stacer (1.6.1-1) stable; urgency=medium
 
   * Wait for global thread to finish when closing app instantly #26
