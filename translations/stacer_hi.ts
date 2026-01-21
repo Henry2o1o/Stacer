@@ -26,7 +26,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">रद्द करें</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="87"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="152"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>स्रोत</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="177"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="371"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>रद्द करें</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
@@ -156,7 +156,7 @@
     <message>
         <location filename="../stacer/app.ui" line="194"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>खोजें</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="278"/>
@@ -206,14 +206,14 @@
     <message>
         <location filename="../stacer/app.cpp" line="108"/>
         <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="171"/>
+        <location filename="../stacer/app.cpp" line="173"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="110"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>जारी रखें</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="113"/>
@@ -311,7 +311,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
         <source>Stretched</source>
-        <translation type="unfinished"></translation>
+        <translation>खींचा हुआ</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
@@ -594,7 +594,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="192"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">रद्द करें</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="26"/>
@@ -813,7 +813,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="14"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">खोजें</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="101"/>
@@ -1186,7 +1186,7 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">खोजें</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
@@ -1293,12 +1293,12 @@
         <translation>स्टार्टअप ऐप जोड़ें</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="66"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="67"/>
         <source>Startup Apps are disabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="126"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="127"/>
         <source>Startup Applications (%1)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1455,7 +1455,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="186"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">खोजें</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="196"/>

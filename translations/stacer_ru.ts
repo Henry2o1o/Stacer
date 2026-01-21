@@ -46,7 +46,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="133"/>
         <source>Suites</source>
-        <translation type="unfinished"></translation>
+        <translation>Сьюты</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="152"/>
@@ -79,7 +79,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="125"/>
         <source>Not Found APT Repositories</source>
-        <translation>Не найдены репозитории APT</translation>
+        <translation>Репозитории APT не найдены</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="269"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="75"/>
         <source>Adding...</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавление...</translation>
     </message>
 </context>
 <context>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="108"/>
         <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="171"/>
+        <location filename="../stacer/app.cpp" line="173"/>
         <source>Quit</source>
         <translation>Выход</translation>
     </message>
@@ -218,7 +218,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="113"/>
         <source>Don&apos;t ask again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Более не спрашивать.</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="116"/>
@@ -1257,12 +1257,12 @@
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="58"/>
         <source>Generic Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Общее название</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="72"/>
         <source>App Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Значок приложения</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="79"/>
@@ -1293,12 +1293,12 @@
         <translation>Добавить приложение в автозапуск</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="66"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="67"/>
         <source>Startup Apps are disabled.</source>
         <translation>Автоматически запускаемые приложения отключены.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="126"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="127"/>
         <source>Startup Applications (%1)</source>
         <translation>Автоматически запускаемые приложения (%1)</translation>
     </message>

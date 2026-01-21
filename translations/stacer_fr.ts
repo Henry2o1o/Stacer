@@ -206,7 +206,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="108"/>
         <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="171"/>
+        <location filename="../stacer/app.cpp" line="173"/>
         <source>Quit</source>
         <translation>Quitter</translation>
     </message>
@@ -218,7 +218,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="113"/>
         <source>Don&apos;t ask again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne pas redemander.</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="116"/>
@@ -1293,12 +1293,12 @@
         <translation>Ajouter une application de démarrage</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="66"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="67"/>
         <source>Startup Apps are disabled.</source>
         <translation>Les applications de démarrage sont désactivées.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="126"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="127"/>
         <source>Startup Applications (%1)</source>
         <translation>Applications de démarrage (%1)</translation>
     </message>
@@ -1725,7 +1725,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
         <source>Toggle Shade</source>
-        <translation>Changer l&apos;ombre</translation>
+        <translation>Activer/désactiver l&apos;ombre</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
