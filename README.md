@@ -128,9 +128,10 @@ Run: `stacer`
     qt6-svg-dev \
     libglx-dev \
     libgl1-mesa-dev \
-    libxkbcommon-dev
+    libxkbcommon-dev \
+    libvulkan-dev
    ```
-   - For Ubuntu 22.04: `libqt6charts6-dev libqt6svg6-dev`.
+   - For Ubuntu 22.04: `libqt6opengl6-dev libqt6charts6-dev libqt6svg6-dev`.
    - Optional: `qt6-wayland-dev`.
 
 2. Build and run:
