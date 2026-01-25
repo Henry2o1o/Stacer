@@ -26,9 +26,6 @@ void APTSourceEdit::show()
 {
     clearElements();
 
-    // example 'deb [arch=amd64 lang=en] http://packages.microsoft.com/repos/vscode stable main'
-
-    // set values to elements
     ui->radioBinary->setChecked(!selectedAptSource->isSource);
     ui->radioSource->setChecked(selectedAptSource->isSource);
     ui->txtOptions->setText(selectedAptSource->options);
@@ -50,8 +47,7 @@ void APTSourceEdit::clearElements()
 
 void APTSourceEdit::on_btnSave_clicked()
 {
-    if (!ui->txtUri->text().isEmpty() &&
-        !ui->txtSuites->text().isEmpty()) {
+    if (!ui->txtUri->text().isEmpty() && !ui->txtSuites->text().isEmpty()) {
         APTSourcePtr updatedAptSource(new APTSource(*selectedAptSource));
         updatedAptSource->isSource = ui->radioSource->isChecked();
         updatedAptSource->options = ui->txtOptions->text();

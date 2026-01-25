@@ -44,7 +44,7 @@ void AptSourceTool::addRepository(const QString &repository, const bool isSource
     if (!repository.isEmpty()) {
         if (isAptRpm() && CommandUtil::isExecutable("apt-repo")) {
             // Use apt-repo add for ALT Linux
-            // Format: apt-repo add "rpm http://... arch component"
+            // Format: apt-repo add "rpm <uri> <suite> <components>"
             QString source = repository;
             if (isSource && !source.startsWith("rpm-src")) {
                 // Convert rpm to rpm-src if source is requested
@@ -309,8 +309,8 @@ QList<APTSourcePtr> AptSourceTool::getSourceList()
                 processEntry(entry);
             }
         } else if (info.fileName().endsWith(".list")) {
-            // example "deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main"
-            // or "rpm [p10] http://mirror.yandex.ru/altlinux/ p10/branch/x86_64-i586 classic" for apt-rpm
+            // For APT: "deb [arch=amd64] https://packages.microsoft.com/repos/code stable main"
+            // or for APT-RPM: "rpm [p10] http://mirror.yandex.ru/altlinux/ p10/branch/x86_64-i586 classic"
             QStringList fileContent = FileUtil::readListFromFile(info.absoluteFilePath()).filter(QRegularExpression("^\\s{0,}#{0,}\\s{0,}" + binaryType()));
 
             for (const QString &line : fileContent) {
