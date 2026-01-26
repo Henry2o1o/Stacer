@@ -26,9 +26,9 @@ void APTSourceRepositoryItem::init()
 
     ui->checkAptSource->setChecked(mAptSource->isActive);
 
-    // example "deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main"
     QString source = mAptSource->source;
 
+    // Remove bracket options for display
     source.remove(QRegularExpression("\\s[\\[]+.*[\\]]+"));
 
     if (mAptSource->isSource) {
