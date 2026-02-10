@@ -1,5 +1,6 @@
 #include "apt_source_manager_page.h"
 #include "Managers/tool_manager.h"
+#include "Utils/command_util.h"
 #include "ui_apt_source_manager_page.h"
 #include "utilities.h"
 
@@ -21,7 +22,16 @@ APTSourceManagerPage::APTSourceManagerPage(QWidget *parent) :
 
 void APTSourceManagerPage::init()
 {
-    ui->txtAptSource->setPlaceholderText(tr("example %1").arg("'ppa:deadsnakes/ppa'"));
+    bool isAptRpm = CommandUtil::isExecutable("apt-get") && CommandUtil::isExecutable("rpm");
+    if (isAptRpm) {
+        // APT-RPM only supports the line format for repository definition
+        ui->txtAptSource->setPlaceholderText(tr("example %1")
+                                                 .arg("'rpm [p10] http://mirror.yandex.ru/altlinux/ p10/branch/x86_64-i586 classic'"));
+    } else {
+        // APT still supports one line repository format but it's deprecated (i.e. signed-by option is not supported anymore)
+        ui->txtAptSource->setPlaceholderText(tr("example %1")
+                                                 .arg("'ppa:deadsnakes/ppa'"));
+    }
 
     loadAptSources();
 

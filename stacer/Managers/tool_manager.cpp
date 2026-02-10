@@ -48,6 +48,7 @@ QStringList ToolManager::getPackages() const
         case PackageTool::PackageTools::APT:
             return PackageTool::getDpkgPackages();
             break;
+        case PackageTool::PackageTools::APT_RPM:
         case PackageTool::PackageTools::YUM:
         case PackageTool::PackageTools::DNF:
             return PackageTool::getRpmPackages();
@@ -75,6 +76,7 @@ QFileInfoList ToolManager::getPackageCaches() const
 {
     switch (PackageTool::currentPackageTool) {
         case PackageTool::PackageTools::APT:
+        case PackageTool::PackageTools::APT_RPM:
             return PackageTool::getDpkgPackageCaches();
             break;
         case PackageTool::PackageTools::YUM:
@@ -94,6 +96,7 @@ void ToolManager::uninstallPackages(const QStringList &packages)
 {
     switch (PackageTool::currentPackageTool) {
         case PackageTool::PackageTools::APT:
+        case PackageTool::PackageTools::APT_RPM:
             PackageTool::dpkgRemovePackages(packages);
             break;
         case PackageTool::PackageTools::YUM:

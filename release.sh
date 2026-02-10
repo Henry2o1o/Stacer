@@ -38,7 +38,7 @@ chmod +x appimagetool-$ARCH.AppImage
 
 # appimage
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
-DESTDIR=../release/$DIR cmake --build build --target install
+DESTDIR=../release/$DIR cmake --build build --target install -j $(nproc)
 ./appimagetool-$ARCH.AppImage -s deploy release/$DIR/usr/share/applications/stacer.desktop
 ./appimagetool-$ARCH.AppImage release/$DIR
 mv Stacer-$VERSION-$ARCH.AppImage release
