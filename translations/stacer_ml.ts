@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="95"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="105"/>
         <source>Add Repository</source>
         <translation>ശേഖരം ചേർക്കുക</translation>
     </message>
@@ -108,22 +108,23 @@
         <translation>തിരുത്താനോ ഇല്ലാതാക്കാനോ തിരഞ്ഞെടുക്കുക.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="24"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="32"/>
         <source>example %1</source>
         <translation>ഉദാഹരണം %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="63"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="73"/>
         <source>APT Repositories (%1)</source>
         <translation>APT ശേഖരങ്ങൾ (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="69"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="79"/>
         <source>Save</source>
         <translation>സൂക്ഷിക്കുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="75"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
         <source>Adding...</source>
         <translation type="unfinished"></translation>
     </message>
