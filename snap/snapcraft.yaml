@@ -1,0 +1,77 @@
+name: stacer
+base: core24
+version: '1.6.0'
+summary: Linux System Optimizer and Monitoring
+description: |
+  Stacer is an open source system optimizer and application monitor that helps
+  users to manage their system across different areas — processes, services,
+  startup apps, and system cleaning utilities.
+
+grade: stable
+confinement: strict
+
+parts:
+  stacer:
+    plugin: cmake
+    source: ..
+    cmake-parameters:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DCMAKE_INSTALL_PREFIX=$SNAPCRAFT_PART_INSTALL
+    build-packages:
+      - build-essential
+      - cmake
+      - pkg-config
+      - qt6-base-dev
+      - qt6-tools-dev
+      - qt6-tools-dev-tools
+      - qt6-l10n-tools
+      - libqt6opengl6-dev
+      - libqt6charts6-dev
+      - libqt6svg6-dev
+      - qt6-wayland-dev
+      - libglx-dev
+      - libgl1-mesa-dev
+      - libxkbcommon-dev
+    stage-packages:
+      - libc6
+      - libqt6core6
+      - libqt6gui6
+      - libqt6widgets6
+      - libqt6network6
+      - libqt6charts6
+      - libqt6svg6
+      - libgl1
+      - libxcb1
+      - libx11-6
+      - curl
+    organize:
+      share/applications/fr.quentium.stacer.metainfo.xml: share/metainfo/fr.quentium.stacer.metainfo.xml
+      share/applications/stacer.desktop: share/applications/stacer.desktop
+    override-pull: |
+      snapcraftctl pull
+      # ensure translations and icons are available if project builds them
+    override-build: |
+      snapcraftctl build
+      cmake --build build --target install -- -j$(nproc)
+
+apps:
+  stacer:
+    command: stacer
+    plugs:
+      - network
+      - network-observe
+      - home
+      - x11
+      - wayland
+      - pulseaudio
+      - audio-playback
+      - desktop
+      - desktop-legacy
+      - removable-media
+      - opengl
+    environment:
+      QT_QUICK_CONTROLS_STYLE: "gtk"
+
+layout:
+  /usr/bin/stacer:
+    bind-file: $SNAP/usr/bin/stacer

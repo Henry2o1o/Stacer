@@ -22,9 +22,9 @@
         <p>Stacer is an open source system optimizer and application monitor that helps users to manage entire system with different aspects, its an all in one system utility.</p>
     </description>
 
-    <launchable type="desktop-id">stacer.desktop</launchable>
+    <launchable type="desktop-id">fr.quentium.stacer.desktop</launchable>
 
-    <icon type="cached">stacer.png</icon>
+    <icon type="stock">stacer</icon>
 
     <categories>
         <category>Utility</category>
@@ -32,9 +32,10 @@
     </categories>
 
     <url type="homepage">https://stacer.quentium.fr</url>
-    <url type="repository">https://github.com/QuentiumYT/Stacer</url>
     <url type="bugtracker">https://github.com/QuentiumYT/Stacer/issues</url>
+    <url type="vcs-browser">https://github.com/QuentiumYT/Stacer</url>
     <url type="donation">https://www.paypal.me/QuentiumYT</url>
+    <url type="translate">https://crowdin.com/project/stacer</url>
 
     <screenshots>
         <screenshot type="default">
@@ -120,7 +121,7 @@
     </provides>
 
     <releases>
-        <release version="@Stacer_VERSION_MAJOR@.@Stacer_VERSION_MINOR@.@Stacer_VERSION_PATCH@" date="@TODAY_ISO_8601@" timestamp="@TODAY_UNIX_TIMESTAMP@">
+        <release version="@Stacer_VERSION_MAJOR@.@Stacer_VERSION_MINOR@.@Stacer_VERSION_PATCH@" date="@TODAY_ISO_8601@">
             <description>
                 <p>Latest stable release of Stacer with performance improvements and bug fixes.</p>
             </description>

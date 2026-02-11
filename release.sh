@@ -45,6 +45,10 @@ mv Stacer-$VERSION-$ARCH.AppImage release
 
 rm appimagetool-$ARCH.AppImage
 
+# flatpak
+flatpak-builder --force-clean --user --install-deps-from=flathub --repo=repo --install build flatpak/fr.quentium.stacer.yml
+flatpak build-bundle repo Stacer.flatpak fr.quentium.stacer --runtime-repo=https://flathub.org/repo/flathub.flatpakrepo
+
 # debian package
 cd release/$DIR
 # Export CMake prefix path for debuild using aqtinstall

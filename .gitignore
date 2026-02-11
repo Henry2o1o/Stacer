@@ -13,3 +13,5 @@ debug*.list
 elfbins.list
 
 *.AppImage
+
+repo/
