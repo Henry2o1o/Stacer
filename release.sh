@@ -9,7 +9,7 @@ export VERSION=$VERSION
 rm -rf build release translations/*.qm rpm/BUILD rpm/BUILDROOT rpm/*RPMS rpm/SOURCES debug*.list elfbins.list
 
 # build
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
 cmake --build build -j $(nproc)
 strip -s build/stacer/stacer
 
@@ -37,7 +37,6 @@ wget -qc https://github.com/$(wget -q https://github.com/probonopd/go-appimage/r
 chmod +x appimagetool-$ARCH.AppImage
 
 # appimage
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
 DESTDIR=../release/$DIR cmake --build build --target install -j $(nproc)
 ./appimagetool-$ARCH.AppImage -s deploy release/$DIR/usr/share/applications/stacer.desktop
 ./appimagetool-$ARCH.AppImage release/$DIR
