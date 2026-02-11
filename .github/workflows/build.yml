@@ -62,7 +62,7 @@ jobs:
           bash ${{ github.workspace }}/release.sh
 
       - name: Upload workflow artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: stacer-${{ matrix.codename }}
           path: |
@@ -73,6 +73,17 @@ jobs:
       - name: Update debian files
         run: |
           sed -i "s/^Architecture:\s\+.*$/Architecture: any/g" ${{ github.workspace }}/debian/control
+
+      - name: Display debian folder
+        run: |
+          echo "Debian folder content:"
+          ls -la ${{ github.workspace }}/debian/
+          echo "Release folder content:"
+          ls -la ${{ github.workspace }}/release/
+          echo "Control file content:"
+          cat ${{ github.workspace }}/debian/control
+          echo "Changelog file content:"
+          cat ${{ github.workspace }}/debian/changelog
 
       - name: Get changelog
         id: changelog
