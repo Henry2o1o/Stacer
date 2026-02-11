@@ -15,19 +15,23 @@ jobs:
         include:
           - os: ubuntu-24.04
             codename: noble
-            # qt_version: 6.4.2
+            arch: x86_64
+            # qt_version: 6.8
             # qt_arch: gcc_64
           - os: ubuntu-24.04-arm
             codename: noble-arm
-            # qt_version: 6.7.0
+            arch: aarch64
+            # qt_version: 6.8
             # qt_arch: linux_gcc_arm64
           - os: ubuntu-22.04
             codename: jammy
-            # qt_version: 6.2.4
+            arch: x86_64
+            # qt_version: 6.8
             # qt_arch: gcc_64
           - os: ubuntu-22.04-arm
             codename: jammy-arm
-            # qt_version: 6.7.0
+            arch: aarch64
+            # qt_version: 6.8
             # qt_arch: linux_gcc_arm64
     runs-on: ${{ matrix.os }}
     steps:
@@ -69,6 +73,15 @@ jobs:
             ${{ github.workspace }}/release/stacer_*.deb
             ${{ github.workspace }}/release/stacer-*.rpm
             ${{ github.workspace }}/release/Stacer-*.AppImage
+
+      - name: Build Flatpak
+        uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+        if: matrix.codename == 'noble' || matrix.codename == 'noble-arm'
+        with:
+          bundle: fr.quentium.stacer.flatpak
+          manifest-path: flatpak/fr.quentium.stacer.yml
+          cache-key: flatpak-builder-${{ github.sha }}
+          arch: ${{ matrix.arch }}
 
       - name: Update debian files
         run: |
