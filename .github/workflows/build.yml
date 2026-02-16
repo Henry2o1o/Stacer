@@ -27,16 +27,10 @@ jobs:
       - name: Build Flatpak
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
-          bundle: fr.quentium.stacer-${{ matrix.arch }}.flatpak
+          bundle: fr.quentium.stacer.flatpak
           manifest-path: flatpak/fr.quentium.stacer.yml
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.arch }}
-
-      - name: Upload Flatpak artifact
-        uses: actions/upload-artifact@v6
-        with:
-          name: flatpak-${{ matrix.arch }}
-          path: fr.quentium.stacer-${{ matrix.arch }}.flatpak
 
   build:
     name: Build App
