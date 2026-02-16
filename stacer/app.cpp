@@ -84,6 +84,13 @@ void App::init()
         ui->btnGnomeSettings->hide();
     }
 
+    bool isFlatpak = QFile::exists("/.flatpak-info");
+    if (isFlatpak) {
+        ui->btnServices->hide();
+        ui->btnProcesses->hide();
+        ui->btnUninstaller->hide();
+    }
+
     // add pages
     for (QWidget *page : mListPages) {
         mSlidingStacked->addWidget(page);

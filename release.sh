@@ -48,7 +48,7 @@ rm appimagetool-$ARCH.AppImage
 flatpak-builder --force-clean --user --install-deps-from=flathub --repo=repo --install build flatpak/fr.quentium.stacer.yml
 flatpak build-bundle repo Stacer.flatpak fr.quentium.stacer --runtime-repo=https://flathub.org/repo/flathub.flatpakrepo
 
-# debian package
+# deb package
 cd release/$DIR
 # Export CMake prefix path for debuild using aqtinstall
 if [ -z "$QT_PLUGIN_PATH" ]; then

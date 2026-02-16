@@ -133,9 +133,12 @@ Run: `stacer`
 1. Download the `.flatpak` package from [Stacer releases](https://github.com/QuentiumYT/Stacer/releases).
 2. Install:
    ```bash
-   flatpak install fr.quentium.stacer.flatpak
+   flatpak install fr.quentium.stacer-x86_64.flatpak # or aarch64
    ```
 3. Run: `flatpak run fr.quentium.stacer`
+
+> [!NOTE]
+> Flatpak is running in a sandboxed environment, which may limit access to certain system resources (i.e. disk usage). Services, Processes, Uninstaller and APT Repository Manager are hidden by default.
 
 ## Build from Source (CMake)
 

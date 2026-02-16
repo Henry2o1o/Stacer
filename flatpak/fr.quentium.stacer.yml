@@ -8,6 +8,7 @@ finish-args:
   - --share=network
   - --socket=wayland
   - --socket=fallback-x11
+  - --filesystem=xdg-config/autostart
 modules:
   - name: stacer
     buildsystem: cmake
