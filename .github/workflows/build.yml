@@ -76,7 +76,7 @@ jobs:
 
       - name: Build Flatpak
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
-        if: matrix.codename == 'noble' || matrix.codename == 'noble-arm'
+        if: matrix.codename == 'jammy' || matrix.codename == 'jammy-arm'
         with:
           bundle: fr.quentium.stacer.flatpak
           manifest-path: flatpak/fr.quentium.stacer.yml
