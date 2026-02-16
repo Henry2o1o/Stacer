@@ -132,6 +132,7 @@ jobs:
             ${{ github.workspace }}/release/stacer_*.deb
             ${{ github.workspace }}/release/stacer-*.rpm
             ${{ github.workspace }}/release/Stacer-*.AppImage
+            ${{ github.workspace }}/release/fr.quentium.stacer.flatpak
 
       - name: Publish PPA package
         uses: yuezk/publish-ppa-package@main

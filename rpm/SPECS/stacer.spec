@@ -3,7 +3,7 @@ Version:        1.6.2
 Release:        1%{?dist}
 Summary:        Linux system optimizer and monitoring
 
-License:        GPLv3
+License:        GPL-3.0
 URL:            https://stacer.quentium.fr/
 Source0:        %{name}-%{version}.tar.gz
 

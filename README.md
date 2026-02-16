@@ -49,22 +49,25 @@
 ## Installation
 
 ### Prerequisites
+
 - curl
 - systemd
 
 ### Ubuntu (PPA)
+
 ```bash
 sudo add-apt-repository ppa:quentiumyt/stacer
 sudo apt update
 sudo apt install stacer
-stacer
 ```
+Run: `stacer`
 
 ### Debian/Ubuntu (.deb)
+
 1. Download the `.deb` package from [Stacer releases](https://github.com/QuentiumYT/Stacer/releases).
 2. Install dependencies:
    ```bash
-   sudo apt install libqt6core6 libqt6gui6 libqt6widgets6 libqt6charts6 libqt6svg6 libqt6concurrent6 libqt6network6
+   sudo apt install curl systemd libqt6core6 libqt6gui6 libqt6widgets6 libqt6charts6 libqt6svg6 libqt6concurrent6 libqt6network6
    ```
 3. Install package:
    ```bash
@@ -73,12 +76,16 @@ stacer
 4. Run: `stacer`
 
 ### Debian/Ubuntu (APT)
+
+⚠️ Not up to date, a newer version is available in [Debian sid](https://packages.debian.org/sid/stacer).
+
 ```bash
 sudo apt install stacer
 stacer
 ```
 
 ### Fedora (.rpm)
+
 1. Download the `.rpm` package from [Stacer releases](https://github.com/QuentiumYT/Stacer/releases).
 2. Install:
    ```bash
@@ -87,22 +94,29 @@ stacer
 3. Run: `stacer`
 
 ### Fedora (DNF)
+
+⚠️ Not up to date, this fork has not been proposed yet
+
 ```bash
 sudo dnf install stacer
-stacer
 ```
+Run: `stacer`
 
 ### Arch Linux (AUR)
+
+Two maintainers propose this package up to date: [stacer-bin](https://aur.archlinux.org/packages/stacer-bin) or [stacer](https://aur.archlinux.org/packages/stacer).
+
 Using your preferred AUR helper:
 ```bash
 # yay
-yay -S stacer-bin
+yay -S stacer-bin # OR stacer
 # or paru
-paru -S stacer-bin
+paru -S stacer-bin # OR stacer
 ```
 Run: `stacer`
 
 ### CachyOS
+
 Using your preferred package manager:
 ```bash
 # pacman
@@ -114,7 +128,17 @@ yay -S stacer
 ```
 Run: `stacer`
 
+### Flatpak (Application bundle)
+
+1. Download the `.flatpak` package from [Stacer releases](https://github.com/QuentiumYT/Stacer/releases).
+2. Install:
+   ```bash
+   flatpak install fr.quentium.stacer.flatpak
+   ```
+3. Run: `flatpak run fr.quentium.stacer`
+
 ## Build from Source (CMake)
+
 1. Install dependencies:
    ```bash
    sudo apt update
@@ -124,6 +148,7 @@ Run: `stacer`
     qt6-tools-dev \
     qt6-tools-dev-tools \
     qt6-l10n-tools \
+    qt6-wayland-dev \
     qt6-charts-dev \
     qt6-svg-dev \
     libglx-dev \
@@ -132,7 +157,6 @@ Run: `stacer`
     libvulkan-dev
    ```
    - For Ubuntu 22.04: `libqt6opengl6-dev libqt6charts6-dev libqt6svg6-dev`.
-   - Optional: `qt6-wayland-dev`.
 
 2. Build and run:
    ```bash
