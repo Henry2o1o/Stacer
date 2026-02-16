@@ -31,6 +31,12 @@ AppManager::AppManager()
         translationPath = folderTranslationPath;
     }
 
+    // Flatpak translation path
+    QString flatpakTranslationPath = "/app/share/qt6/translations";
+    if (QDir(flatpakTranslationPath).exists()) {
+        translationPath = flatpakTranslationPath;
+    }
+
     if (mTranslator.load(QString("stacer_%1").arg(mSettingManager->getLanguage()), translationPath)) {
         qApp->installTranslator(&mTranslator);
         (mSettingManager->getLanguage() == "ar") ? qApp->setLayoutDirection(Qt::RightToLeft) : qApp->setLayoutDirection(Qt::LeftToRight);

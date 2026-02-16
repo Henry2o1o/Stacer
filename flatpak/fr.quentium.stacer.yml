@@ -12,14 +12,9 @@ finish-args:
 modules:
   - name: stacer
     buildsystem: cmake
-    # config-opts:
-    #   - -DCMAKE_BUILD_TYPE=Release
-    #   - -DCMAKE_INSTALL_PREFIX=/app
     build-commands:
       - rm -rf build
       - cmake -S . -B build -DCMAKE_INSTALL_PREFIX=/app -DCMAKE_BUILD_TYPE=Release
-      # - cmake --build build -j $(nproc)
-      # - cmake --install build --prefix /app
       - install -Dm644 flatpak/fr.quentium.stacer.desktop /app/share/applications/fr.quentium.stacer.desktop
       - install -Dm644 icons/hicolor/16x16/apps/stacer.png /app/share/icons/hicolor/16x16/apps/stacer.png
       - install -Dm644 icons/hicolor/32x32/apps/stacer.png /app/share/icons/hicolor/32x32/apps/stacer.png
@@ -29,6 +24,8 @@ modules:
       - install -Dm644 icons/hicolor/512x512/apps/stacer.png /app/share/icons/hicolor/512x512/apps/stacer.png
       - install -Dm644 icons/hicolor/1024x1024/apps/stacer.png /app/share/icons/hicolor/1024x1024/apps/stacer.png
       - install -Dm644 icons/hicolor/scalable/apps/stacer.svg /app/share/icons/hicolor/scalable/apps/stacer.svg
+      - mkdir -p /app/share/qt6/translations/
+      - install -Dm644 translations/*.qm /app/share/qt6/translations/
     sources:
       - type: dir
         path: ..
