@@ -1,11 +1,9 @@
 name: stacer
 base: core24
-version: '1.6.0'
+version: '1.6.2'
 summary: Linux System Optimizer and Monitoring
 description: |
-  Stacer is an open source system optimizer and application monitor that helps
-  users to manage their system across different areas — processes, services,
-  startup apps, and system cleaning utilities.
+  Stacer is an open source system optimizer and application monitor that helps users to manage entire system with different aspects, its an all in one system utility.
 
 grade: stable
 confinement: strict
@@ -32,6 +30,7 @@ parts:
       - libglx-dev
       - libgl1-mesa-dev
       - libxkbcommon-dev
+      - libvulkan-dev
     stage-packages:
       - libc6
       - libqt6core6
