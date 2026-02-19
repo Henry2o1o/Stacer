@@ -84,8 +84,7 @@ void App::init()
         ui->btnGnomeSettings->hide();
     }
 
-    bool isFlatpak = QFile::exists("/.flatpak-info");
-    if (isFlatpak) {
+    if (QFile::exists("/.flatpak-info")) {
         ui->btnServices->hide();
         ui->btnProcesses->hide();
         ui->btnUninstaller->hide();
