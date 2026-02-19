@@ -24,10 +24,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Retrieve version
+        run: |
+          VERSION=$(grep -P -m 1 -o '(?<=^stacer \().*(?=\))' ${{ github.workspace }}/debian/changelog)
+          echo "version=$VERSION" >> $GITHUB_ENV
+
       - name: Build Flatpak
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
-          bundle: fr.quentium.stacer.flatpak
+          bundle: fr.quentium.stacer_${{ env.version }}.flatpak
           manifest-path: flatpak/fr.quentium.stacer.yml
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.arch }}
