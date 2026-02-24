@@ -50,6 +50,11 @@ install(
   DESTINATION share/metainfo
 )
 
+install(
+  DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor"
+  DESTINATION share/icons
+)
+
 # For flathub, stacer is named Acters
 configure_file(
   "${CMAKE_CURRENT_SOURCE_DIR}/desktop/acters.metainfo.xml.in"
@@ -63,11 +68,16 @@ install(
 )
 
 install(
+  FILES "${CMAKE_CURRENT_SOURCE_DIR}/desktop/acters.desktop"
+  DESTINATION share/applications/fr.quentium.acters.desktop
+)
+
+install(
   FILES "${CMAKE_CURRENT_BINARY_DIR}/desktop/fr.quentium.acters.metainfo.xml"
   DESTINATION share/metainfo
 )
 
 install(
-  DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor"
-  DESTINATION share/icons
+  FILES "${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/scalable/apps/stacer.svg"
+  DESTINATION share/icons/hicolor/scalable/apps/fr.quentium.acters.svg
 )
