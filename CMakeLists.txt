@@ -65,11 +65,7 @@ configure_file(
 install(
   FILES "${CMAKE_CURRENT_SOURCE_DIR}/desktop/acters.desktop"
   DESTINATION share/applications
-)
-
-install(
-  FILES "${CMAKE_CURRENT_SOURCE_DIR}/desktop/acters.desktop"
-  DESTINATION share/applications/fr.quentium.acters.desktop
+  RENAME fr.quentium.acters.desktop
 )
 
 install(
@@ -79,5 +75,6 @@ install(
 
 install(
   FILES "${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/scalable/apps/stacer.svg"
-  DESTINATION share/icons/hicolor/scalable/apps/fr.quentium.acters.svg
+  DESTINATION share/icons/hicolor/scalable/apps
+  RENAME fr.quentium.acters.svg
 )
