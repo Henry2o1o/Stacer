@@ -13,7 +13,7 @@ finish-args:
 
 modules:
   - name: stacer
-    buildsystem: cmake
+    buildsystem: cmake-ninja
     sources:
       - type: dir
         path: ..
