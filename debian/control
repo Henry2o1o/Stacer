@@ -2,7 +2,7 @@ Source: stacer
 Section: utils
 Priority: optional
 Maintainer: Quentin Lienhardt <pro@quentium.fr>
-Build-Depends: cmake, debhelper (>= 12), qt6-base-dev, qt6-tools-dev, qt6-tools-dev-tools, qt6-l10n-tools, libqt6opengl6-dev, libqt6charts6-dev, libqt6svg6-dev, qt6-wayland-dev, libglx-dev, libgl1-mesa-dev, libxkbcommon-dev, libvulkan-dev
+Build-Depends: cmake, debhelper (>= 13), qt6-base-dev, qt6-tools-dev, qt6-tools-dev-tools, qt6-l10n-tools, libqt6opengl6-dev, libqt6charts6-dev, libqt6svg6-dev, qt6-wayland-dev, libglx-dev, libgl1-mesa-dev, libxkbcommon-dev, libvulkan-dev
 Standards-Version: 4.7.3
 Rules-Requires-Root: no
 Vcs-Browser: https://github.com/QuentiumYT/Stacer
