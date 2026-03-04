@@ -25,16 +25,22 @@ AppManager::AppManager()
     // Load from global qt translations path
     QString translationPath = QLibraryInfo::path(QLibraryInfo::TranslationsPath);
 
-    // Fallback to local translations path if global path does not exist
+    // Prefer system installations first if available
+    QString systemTranslationPath = "/usr/share/stacer/translations";
+    if (QDir(systemTranslationPath).exists()) {
+        translationPath = systemTranslationPath;
+    }
+
+    // Flatpak translation path (highest priority for sandboxed build)
+    QString flatpakTranslationPath = "/app/share/stacer/translations";
+    if (QDir(flatpakTranslationPath).exists()) {
+        translationPath = flatpakTranslationPath;
+    }
+
+    // Fallback to local translations path if global/system path does not exist
     QString folderTranslationPath = qApp->applicationDirPath() + "/translations";
     if (QDir(folderTranslationPath).exists()) {
         translationPath = folderTranslationPath;
-    }
-
-    // Flatpak translation path
-    QString flatpakTranslationPath = "/app/share/qt6/translations";
-    if (QDir(flatpakTranslationPath).exists()) {
-        translationPath = flatpakTranslationPath;
     }
 
     if (mTranslator.load(QString("stacer_%1").arg(mSettingManager->getLanguage()), translationPath)) {

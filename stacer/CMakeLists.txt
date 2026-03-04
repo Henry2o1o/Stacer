@@ -54,5 +54,5 @@ install(
 
 install(
   FILES ${QM_FILES}
-  DESTINATION share/qt${QT_VERSION_MAJOR}/translations
+  DESTINATION share/stacer/translations
 )
