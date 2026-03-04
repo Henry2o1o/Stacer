@@ -46,22 +46,18 @@ jobs:
         include:
           - os: ubuntu-24.04
             codename: noble
-            arch: x86_64
             # qt_version: 6.8
             # qt_arch: gcc_64
           - os: ubuntu-24.04-arm
             codename: noble-arm
-            arch: aarch64
             # qt_version: 6.8
             # qt_arch: linux_gcc_arm64
           - os: ubuntu-22.04
             codename: jammy
-            arch: x86_64
             # qt_version: 6.8
             # qt_arch: gcc_64
           - os: ubuntu-22.04-arm
             codename: jammy-arm
-            arch: aarch64
             # qt_version: 6.8
             # qt_arch: linux_gcc_arm64
     runs-on: ${{ matrix.os }}
