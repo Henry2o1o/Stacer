@@ -23,9 +23,9 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Gui Widgets Charts Svg Concurrent Network REQUIRED)
 
 # Setting the minimum C++ standard and passing the Qt-specific define
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_EXTENSIONS YES)
-set(CMAKE_CXX_STANDARD_REQUIRED YES)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_EXTENSIONS ON)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_definitions(-DQT_DEPRECATED_WARNINGS)
 
 # Subprojects
