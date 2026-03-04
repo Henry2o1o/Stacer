@@ -151,15 +151,15 @@ Run: `stacer`
     qt6-tools-dev \
     qt6-tools-dev-tools \
     qt6-l10n-tools \
+    libqt6opengl6-dev \
+    libqt6charts6-dev \
+    libqt6svg6-dev \
     qt6-wayland-dev \
-    qt6-charts-dev \
-    qt6-svg-dev \
     libglx-dev \
     libgl1-mesa-dev \
     libxkbcommon-dev \
     libvulkan-dev
    ```
-   - For Ubuntu 22.04: `libqt6opengl6-dev libqt6charts6-dev libqt6svg6-dev`.
 
 2. Build and run:
    ```bash
