@@ -36,7 +36,7 @@ set_source_files_properties(
 # Translations
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED LinguistTools)
 if("${QT_VERSION_MAJOR}" STREQUAL "5")
-  qt5_create_translation(QM_FILES ${${PROJECT_NAME}_translations} ${${PROJECT_NAME}_srcs})
+  qt5_add_translation(QM_FILES ${${PROJECT_NAME}_translations} ${${PROJECT_NAME}_srcs})
 else()
   qt6_add_translations(stacer TS_FILES ${${PROJECT_NAME}_translations} QM_FILES_OUTPUT_VARIABLE QM_FILES)
 endif()
