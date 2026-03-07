@@ -780,7 +780,7 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="259"/>
         <source>%1 Minute Average: %2</source>
-        <translation>%1 Min Durchschnitt: %2</translation>
+        <translation>%1 Min-Durchschnitt: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="307"/>
