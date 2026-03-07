@@ -213,7 +213,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="110"/>
         <source>Continue</source>
-        <translation>Fortsetzen</translation>
+        <translation>Ja, fortsetzen</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="113"/>
@@ -458,7 +458,7 @@
     <message>
         <location filename="../stacer/feedback.ui" line="68"/>
         <source>Email Address</source>
-        <translation>E-Mail Adresse</translation>
+        <translation>E-Mail-Adresse</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="97"/>
@@ -483,7 +483,7 @@
     <message>
         <location filename="../stacer/feedback.cpp" line="46"/>
         <source>Email address is not valid !</source>
-        <translation>Keine gültige E-Mail Adresse!</translation>
+        <translation>Keine gültige E-Mail-Adresse!</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="51"/>
@@ -714,7 +714,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="215"/>
         <source>Refresh (%1)</source>
-        <translation>Aktualisierung (%1)</translation>
+        <translation>Aktualisierung (%1) Sek</translation>
     </message>
 </context>
 <context>
@@ -780,7 +780,7 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="259"/>
         <source>%1 Minute Average: %2</source>
-        <translation>%1 Minute(n) Durchschnitt: %2</translation>
+        <translation>%1 Min Durchschnitt: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="307"/>
@@ -1377,7 +1377,7 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="293"/>
         <source>%1 size files cleaned.</source>
-        <translation>%1 Dateien bereinigt.</translation>
+        <translation>%1 Dateien bereinigt</translation>
     </message>
 </context>
 <context>
