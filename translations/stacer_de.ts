@@ -1377,7 +1377,7 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="293"/>
         <source>%1 size files cleaned.</source>
-        <translation>%1 Dateien bereinigt</translation>
+        <translation>%1 Datei(en) bereinigt</translation>
     </message>
 </context>
 <context>
