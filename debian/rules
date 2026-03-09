@@ -1,5 +1,4 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
 
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
@@ -8,7 +7,7 @@
 export DEB_BUILD_MAINT_OPTIONS = optimize=-lto
 
 %:
-	dh $@ --parallel
+	dh $@
 
 override_dh_shlibdeps:
 ifeq ($(shell whoami),runner)
