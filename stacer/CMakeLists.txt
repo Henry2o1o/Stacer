@@ -36,7 +36,7 @@ set_source_files_properties(
 # Translations
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED LinguistTools)
 if("${QT_VERSION_MAJOR}" STREQUAL "5")
-  qt5_create_translation(QM_FILES ${${PROJECT_NAME}_translations} ${${PROJECT_NAME}_srcs})
+  qt5_add_translation(QM_FILES ${${PROJECT_NAME}_translations} ${${PROJECT_NAME}_srcs})
 else()
   qt6_add_translations(stacer TS_FILES ${${PROJECT_NAME}_translations} QM_FILES_OUTPUT_VARIABLE QM_FILES)
 endif()
@@ -45,7 +45,9 @@ set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${QM_FILES}")
 target_link_libraries(${PROJECT_NAME} stacer-core)
 target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Gui Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Charts Qt${QT_VERSION_MAJOR}::Svg Qt${QT_VERSION_MAJOR}::Concurrent)
 
-set_property(TARGET ${PROJECT_NAME} PROPERTY C_STANDARD 11)
+# Ensure C++ standard library is linked when the linker doesn't add it automatically
+target_link_libraries(${PROJECT_NAME} stdc++)
+target_link_libraries(${PROJECT_NAME} m)
 
 install(
   TARGETS ${PROJECT_NAME}
