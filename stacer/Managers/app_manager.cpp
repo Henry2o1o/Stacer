@@ -25,7 +25,13 @@ AppManager::AppManager()
     // Load from global qt translations path
     QString translationPath = QLibraryInfo::path(QLibraryInfo::TranslationsPath);
 
-    // Fallback to local translations path if global path does not exist
+    // Prefer application installation path if available
+    QString applicationTranslationPath = "/usr/share/stacer/translations";
+    if (QDir(applicationTranslationPath).exists()) {
+        translationPath = applicationTranslationPath;
+    }
+
+    // Fallback to local translations path if global/application path does not exist
     QString folderTranslationPath = qApp->applicationDirPath() + "/translations";
     if (QDir(folderTranslationPath).exists()) {
         translationPath = folderTranslationPath;

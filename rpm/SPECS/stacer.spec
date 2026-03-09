@@ -42,6 +42,6 @@ DESTDIR=%{buildroot} cmake --install build
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 %{_datadir}/icons/hicolor/scalable/apps/%{name}.svg
 %{_datadir}/metainfo/fr.quentium.%{name}.metainfo.xml
-%{_datadir}/qt6/translations/*.qm
+%{_datadir}/%{name}/translations/*.qm
 
 %changelog
