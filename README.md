@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/QuentiumYT/Stacer/main/screenshots/header.png" width="800">    
 </p>
 
-<h2 align="center">Linux System Optimizer and Monitoring</h2>
+<h2 align="center">Linux-Systemoptimierung und Überwachung</h2>
 
 <h3 align="center">
     <strong>

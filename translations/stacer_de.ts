@@ -141,7 +141,7 @@
     <message>
         <location filename="../stacer/app.ui" line="101"/>
         <source>Dashboard</source>
-        <translation>Übersicht</translation>
+        <translation>ÜBERSICHT</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="135"/>
@@ -213,12 +213,12 @@
     <message>
         <location filename="../stacer/app.cpp" line="110"/>
         <source>Continue</source>
-        <translation>Fortsetzen</translation>
+        <translation>Ja, fortsetzen</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="113"/>
         <source>Don&apos;t ask again.</source>
-        <translation>Frag nicht nochmal.</translation>
+        <translation>Frag nicht nochmal</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="116"/>
@@ -329,7 +329,7 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="20"/>
         <source>Dashboard</source>
-        <translation>Übersicht</translation>
+        <translation>╶═ Ü B E R S I C H T ═╴</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="156"/>
@@ -399,22 +399,22 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>CPU Core: %1</source>
-        <translation>CPU Kerne: %1</translation>
+        <translation>CPU-Kerne: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
         <source>CPU Speed: %1</source>
-        <translation>CPU Frequenz: %1</translation>
+        <translation>CPU-Frequenz: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="135"/>
         <source>High CPU Usage</source>
-        <translation>Hohe CPU Auslastung</translation>
+        <translation>Hohe CPU-Auslastung</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="136"/>
         <source>The amount of CPU used is over %1%.</source>
-        <translation>Die CPU Auslastung ist über %1%.</translation>
+        <translation>Die CPU-Auslastung ist über %1%.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="164"/>
@@ -458,7 +458,7 @@
     <message>
         <location filename="../stacer/feedback.ui" line="68"/>
         <source>Email Address</source>
-        <translation>E-Mail Adresse</translation>
+        <translation>E-Mail-Adresse</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="97"/>
@@ -483,7 +483,7 @@
     <message>
         <location filename="../stacer/feedback.cpp" line="46"/>
         <source>Email address is not valid !</source>
-        <translation>Keine gültige E-Mail Adresse!</translation>
+        <translation>Keine gültige E-Mail-Adresse!</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="51"/>
@@ -654,7 +654,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
         <source>User</source>
-        <translation>Benutzer</translation>
+        <translation>Nutzer</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
@@ -664,7 +664,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
         <source>%Memory</source>
-        <translation>%Speicher</translation>
+        <translation>% Speicher</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
@@ -714,7 +714,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="215"/>
         <source>Refresh (%1)</source>
-        <translation>Aktualisierung (%1)</translation>
+        <translation>Aktualisierung (%1) Sek</translation>
     </message>
 </context>
 <context>
@@ -722,7 +722,7 @@
     <message>
         <location filename="../stacer/Managers/setting_manager.cpp" line="61"/>
         <source>Dashboard</source>
-        <translation>Übersicht</translation>
+        <translation>ÜBERSICHT</translation>
     </message>
 </context>
 <context>
@@ -780,7 +780,7 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="259"/>
         <source>%1 Minute Average: %2</source>
-        <translation>%1 Minute(n) Durchschnitt: %2</translation>
+        <translation>%1 Min Durchschnitt: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="307"/>
@@ -919,7 +919,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="28"/>
         <source>User</source>
-        <translation>Benutzer</translation>
+        <translation>Nutzer</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="29"/>
@@ -1171,7 +1171,7 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Dashboard</source>
-        <translation>Übersicht</translation>
+        <translation>ÜBERSICHT</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
@@ -1377,7 +1377,7 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="293"/>
         <source>%1 size files cleaned.</source>
-        <translation>%1 Dateien bereinigt.</translation>
+        <translation>%1 Dateien bereinigt</translation>
     </message>
 </context>
 <context>

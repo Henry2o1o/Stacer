@@ -140,7 +140,7 @@ void SettingsPage::on_checkAutostart_clicked(bool checked)
         QString appTemplate = QString("[Desktop Entry]\n"
                                       "Type=Application\n"
                                       "Name=Stacer\n"
-                                      "GenericName=Linux System Optimizer and Monitoring\n"
+                                      "GenericName=Linux-Systemoptimierung und Überwachung\n"
                                       "Comment=Optimize and monitor your Linux system\n"
                                       "Icon=stacer\n"
                                       "Hidden=false\n"
