@@ -414,7 +414,7 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="136"/>
         <source>The amount of CPU used is over %1%.</source>
-        <translation>Die CPU-Auslastung ist über %1%.</translation>
+        <translation>CPU-Auslastung ist über %1%</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="164"/>
@@ -780,7 +780,7 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="259"/>
         <source>%1 Minute Average: %2</source>
-        <translation>%1 Min Durchschnitt: %2</translation>
+        <translation>%1 Min-Durchschnitt: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="307"/>
@@ -1068,7 +1068,7 @@
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
         <source>Running Now ?</source>
-        <translation>Wird ausgeführt ?</translation>
+        <translation>Wird ausgeführt?</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
