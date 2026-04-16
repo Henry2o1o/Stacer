@@ -119,33 +119,33 @@ FORMS += \
     Pages/Helpers/host_manage.ui
 
 TRANSLATIONS += \
-    ../translations/stacer_ar.ts \
-    ../translations/stacer_ca.ts \
-    ../translations/stacer_cs.ts \
+#    ../translations/stacer_ar.ts \
+#    ../translations/stacer_ca.ts \
+#    ../translations/stacer_cs.ts \
     ../translations/stacer_de.ts \
     ../translations/stacer_en.ts \
-    ../translations/stacer_es.ts \
-    ../translations/stacer_eu.ts \
-    ../translations/stacer_fr.ts \
-    ../translations/stacer_gl.ts \
-    ../translations/stacer_hi.ts \
-    ../translations/stacer_hu.ts \
-    ../translations/stacer_it.ts \
-    ../translations/stacer_kn.ts \
-    ../translations/stacer_ko.ts \
-    ../translations/stacer_ml.ts \
-    ../translations/stacer_nl.ts \
-    ../translations/stacer_oc.ts \
-    ../translations/stacer_pl.ts \
-    ../translations/stacer_pt.ts \
-    ../translations/stacer_ro.ts \
-    ../translations/stacer_ru.ts \
-    ../translations/stacer_sv.ts \
-    ../translations/stacer_tr.ts \
-    ../translations/stacer_uk.ts \
-    ../translations/stacer_vi.ts \
-    ../translations/stacer_zh-cn.ts \
-    ../translations/stacer_zh-tw.ts
+#    ../translations/stacer_es.ts \
+#    ../translations/stacer_eu.ts \
+#    ../translations/stacer_fr.ts \
+#    ../translations/stacer_gl.ts \
+#    ../translations/stacer_hi.ts \
+#    ../translations/stacer_hu.ts \
+#    ../translations/stacer_it.ts \
+#    ../translations/stacer_kn.ts \
+#    ../translations/stacer_ko.ts \
+#    ../translations/stacer_ml.ts \
+#    ../translations/stacer_nl.ts \
+#    ../translations/stacer_oc.ts \
+#    ../translations/stacer_pl.ts \
+#    ../translations/stacer_pt.ts \
+#    ../translations/stacer_ro.ts \
+#    ../translations/stacer_ru.ts \
+#    ../translations/stacer_sv.ts \
+#    ../translations/stacer_tr.ts \
+#    ../translations/stacer_uk.ts \
+#    ../translations/stacer_vi.ts \
+#    ../translations/stacer_zh-cn.ts \
+#    ../translations/stacer_zh-tw.ts
 
 RESOURCES += \
     static.qrc
