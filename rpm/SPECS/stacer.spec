@@ -1,5 +1,5 @@
 Name:           stacer
-Version:        1.6.2
+Version:        1.6.3
 Release:        1%{?dist}
 Summary:        Linux system optimizer and monitoring
 
@@ -7,7 +7,7 @@ License:        GPL-3.0
 URL:            https://stacer.quentium.fr/
 Source0:        %{name}-%{version}.tar.gz
 
-BuildArch:      x86_64
+BuildArch:      noarch
 Requires:       qt6-qtbase qt6-qtbase-gui qt6-qtcharts qt6-qtsvg glibc systemd curl
 
 %description
