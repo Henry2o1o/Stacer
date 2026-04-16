@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE" sourcelanguage="en">
+<TS version="2.1" language="de_DE" sourcelanguage="en_US">
 <context>
     <name>APTSourceEdit</name>
     <message>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="133"/>
         <source>Suites</source>
-        <translation>Suites</translation>
+        <translation type="unfinished">Suiten</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="152"/>
@@ -84,7 +84,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="269"/>
         <source>Delete</source>
-        <translation>Entfernen</translation>
+        <translation type="unfinished">Löschen</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="308"/>
@@ -219,7 +219,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="119"/>
         <source>Don&apos;t ask again.</source>
-        <translation>Frag nicht nochmal.</translation>
+        <translation type="unfinished">Frag nicht nochmal</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="122"/>
@@ -267,7 +267,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="282"/>
         <source>Home Icon</source>
-        <translation>Home-Symbol</translation>
+        <translation type="unfinished">Startseite-Symbol</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="308"/>
@@ -551,7 +551,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/helpers_page.ui" line="62"/>
         <source>Host Manage</source>
-        <translation>Rechnerverwaltung</translation>
+        <translation type="unfinished">Host-Verwaltung</translation>
     </message>
 </context>
 <context>
