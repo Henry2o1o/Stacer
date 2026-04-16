@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE" sourcelanguage="en_US">
+<TS version="2.1" language="de_DE" sourcelanguage="en">
 <context>
     <name>APTSourceEdit</name>
     <message>
@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="95"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="105"/>
         <source>Add Repository</source>
         <translation>Paketquelle hinzufügen</translation>
     </message>
@@ -108,22 +108,23 @@
         <translation>Zum Entfernen oder Bearbeiten auswählen.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="24"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="32"/>
         <source>example %1</source>
         <translation>Beispiel %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="63"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="73"/>
         <source>APT Repositories (%1)</source>
         <translation>APT Paketquellen (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="69"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="79"/>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="75"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
         <source>Adding...</source>
         <translation>Hinzufügen...</translation>
     </message>
@@ -141,7 +142,7 @@
     <message>
         <location filename="../stacer/app.ui" line="101"/>
         <source>Dashboard</source>
-        <translation>ÜBERSICHT</translation>
+        <translation>Übersicht</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="135"/>
@@ -204,24 +205,24 @@
         <translation>Feedback</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="108"/>
-        <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="173"/>
+        <location filename="../stacer/app.cpp" line="114"/>
+        <location filename="../stacer/app.cpp" line="121"/>
+        <location filename="../stacer/app.cpp" line="179"/>
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="110"/>
+        <location filename="../stacer/app.cpp" line="116"/>
         <source>Continue</source>
         <translation>Ja, fortsetzen</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="113"/>
+        <location filename="../stacer/app.cpp" line="119"/>
         <source>Don&apos;t ask again.</source>
-        <translation>Frag nicht nochmal</translation>
+        <translation>Frag nicht nochmal.</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="116"/>
+        <location filename="../stacer/app.cpp" line="122"/>
         <source>Will the program continue to work in the system tray?</source>
         <translation>Soll das Programm im System-Tray weiterarbeiten?</translation>
     </message>
@@ -329,7 +330,7 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="20"/>
         <source>Dashboard</source>
-        <translation>╶═ Ü B E R S I C H T ═╴</translation>
+        <translation>Übersicht</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="156"/>
@@ -399,22 +400,22 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>CPU Core: %1</source>
-        <translation>CPU-Kerne: %1</translation>
+        <translation>CPU Kerne: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
         <source>CPU Speed: %1</source>
-        <translation>CPU-Frequenz: %1</translation>
+        <translation>CPU Frequenz: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="135"/>
         <source>High CPU Usage</source>
-        <translation>Hohe CPU-Auslastung</translation>
+        <translation>Hohe CPU Auslastung</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="136"/>
         <source>The amount of CPU used is over %1%.</source>
-        <translation>CPU-Auslastung ist über %1%</translation>
+        <translation>Die CPU Auslastung ist über %1%.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="164"/>
@@ -654,7 +655,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
         <source>User</source>
-        <translation>Nutzer</translation>
+        <translation>Benutzer</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
@@ -664,7 +665,7 @@
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
         <source>%Memory</source>
-        <translation>% Speicher</translation>
+        <translation>%Speicher</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
@@ -722,7 +723,7 @@
     <message>
         <location filename="../stacer/Managers/setting_manager.cpp" line="61"/>
         <source>Dashboard</source>
-        <translation>ÜBERSICHT</translation>
+        <translation>Übersicht</translation>
     </message>
 </context>
 <context>
@@ -780,7 +781,7 @@
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="259"/>
         <source>%1 Minute Average: %2</source>
-        <translation>%1 Min-Durchschnitt: %2</translation>
+        <translation>%1 Minuten-Durchschnitt: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="307"/>
@@ -919,7 +920,7 @@
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="28"/>
         <source>User</source>
-        <translation>Nutzer</translation>
+        <translation>Benutzer</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="29"/>
@@ -1068,7 +1069,7 @@
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
         <source>Running Now ?</source>
-        <translation>Wird ausgeführt?</translation>
+        <translation>Wird ausgeführt ?</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
@@ -1169,47 +1170,50 @@
         <translation>Spenden</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Dashboard</source>
-        <translation>ÜBERSICHT</translation>
+        <translation>Übersicht</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Startup Apps</source>
         <translation>Autostart-Programme</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>System Cleaner</source>
         <translation>System-Reinigung</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Search</source>
         <translation>Suchen</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="89"/>
         <source>Services</source>
         <translation>Dienste</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="90"/>
         <source>Processes</source>
         <translation>Prozesse</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="91"/>
         <source>Uninstaller</source>
         <translation>Paket-Deinstallation</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Resources</source>
         <translation>Ressourcen</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Helpers</source>
         <translation>Helfer</translation>
     </message>
@@ -1377,7 +1381,7 @@
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="293"/>
         <source>%1 size files cleaned.</source>
-        <translation>%1 Dateien bereinigt</translation>
+        <translation>%1 Dateien bereinigt.</translation>
     </message>
 </context>
 <context>

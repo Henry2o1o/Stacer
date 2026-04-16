@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="95"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="105"/>
         <source>Add Repository</source>
         <translation>Dodaj repozytoria</translation>
     </message>
@@ -108,22 +108,23 @@
         <translation>Zaznacz aby usunąć lub edytować</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="24"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="32"/>
         <source>example %1</source>
         <translation>przykład %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="63"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="73"/>
         <source>APT Repositories (%1)</source>
         <translation>Repozytorium APT (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="69"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="79"/>
         <source>Save</source>
         <translation>Zapisz</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="75"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
         <source>Adding...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -204,24 +205,24 @@
         <translation>Opinia</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="108"/>
-        <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="173"/>
+        <location filename="../stacer/app.cpp" line="114"/>
+        <location filename="../stacer/app.cpp" line="121"/>
+        <location filename="../stacer/app.cpp" line="179"/>
         <source>Quit</source>
         <translation>Wyjdź</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="110"/>
+        <location filename="../stacer/app.cpp" line="116"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="113"/>
+        <location filename="../stacer/app.cpp" line="119"/>
         <source>Don&apos;t ask again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="116"/>
+        <location filename="../stacer/app.cpp" line="122"/>
         <source>Will the program continue to work in the system tray?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1169,47 +1170,50 @@
         <translation>Dotacja</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Dashboard</source>
         <translation>Deska rozdzielcza</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Startup Apps</source>
         <translation>Aplikacje startowe</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>System Cleaner</source>
         <translation>Czyściciel systemu</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Search</source>
         <translation>Szukaj</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="89"/>
         <source>Services</source>
         <translation>Usługi</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="90"/>
         <source>Processes</source>
         <translation>Procesy</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="91"/>
         <source>Uninstaller</source>
         <translation>Deinstalator</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Resources</source>
         <translation>Zasoby</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Helpers</source>
         <translation type="unfinished"></translation>
     </message>

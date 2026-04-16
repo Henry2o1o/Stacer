@@ -10,12 +10,12 @@ QString FormatUtil::formatBytes(const quint64 &bytes)
     else if (bytes < KIBI) // bytes
         return QString("%1 Byte").arg(bytes);
     else if (bytes < MEBI) // KiB
-        return formatUnit(bytes, KIBI, "KB");
+        return formatUnit(bytes, KB, "KB");
     else if (bytes < GIBI) // MiB
-        return formatUnit(bytes, MEBI, "MB");
+        return formatUnit(bytes, MB, "MB");
     else if (bytes < TEBI) // GiB
-        return formatUnit(bytes, GIBI, "GB");
+        return formatUnit(bytes, GB, "GB");
     else // TiB
-        return formatUnit(bytes, TEBI, "TB");
+        return formatUnit(bytes, TB, "TB");
 #undef formatUnit
 }

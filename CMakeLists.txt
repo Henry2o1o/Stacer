@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(Stacer VERSION 1.6.2 LANGUAGES C CXX)
+project(Stacer VERSION 1.6.3 LANGUAGES CXX)
 
 # Build with PIC and PIE (default: ON)
 option(CMAKE_POSITION_INDEPENDENT_CODE "Determines whether position independent executables or shared libraries will be created" ON)
@@ -41,6 +41,11 @@ configure_file(
 )
 
 install(
+  FILES "${CMAKE_CURRENT_BINARY_DIR}/desktop/fr.quentium.stacer.metainfo.xml"
+  DESTINATION share/metainfo
+)
+
+install(
   FILES "${CMAKE_CURRENT_SOURCE_DIR}/desktop/stacer.desktop"
   DESTINATION share/applications
 )
@@ -50,7 +55,30 @@ install(
   DESTINATION share/icons
 )
 
-install(
-  FILES "${CMAKE_CURRENT_BINARY_DIR}/desktop/fr.quentium.stacer.metainfo.xml"
-  DESTINATION share/metainfo
-)
+# For Flathub, Stacer is named Acters
+option(FLATHUB_BUILD "Install the app as Acters for Flathub" OFF)
+
+if(FLATHUB_BUILD)
+  configure_file(
+    "${CMAKE_CURRENT_SOURCE_DIR}/desktop/acters.metainfo.xml.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/desktop/fr.quentium.acters.metainfo.xml"
+    IMMEDIATE @ONLY
+  )
+
+  install(
+    FILES "${CMAKE_CURRENT_BINARY_DIR}/desktop/fr.quentium.acters.metainfo.xml"
+    DESTINATION share/metainfo
+  )
+
+  install(
+    FILES "${CMAKE_CURRENT_SOURCE_DIR}/desktop/acters.desktop"
+    DESTINATION share/applications
+    RENAME fr.quentium.acters.desktop
+  )
+
+  install(
+    FILES "${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/scalable/apps/stacer.svg"
+    DESTINATION share/icons/hicolor/scalable/apps
+    RENAME fr.quentium.acters.svg
+  )
+endif()

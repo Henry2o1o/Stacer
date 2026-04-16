@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="95"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="105"/>
         <source>Add Repository</source>
         <translation>Adăugați Repozitoriu</translation>
     </message>
@@ -108,22 +108,23 @@
         <translation>Selectați pentru a șterge sau a edita.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="24"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="32"/>
         <source>example %1</source>
         <translation>exemplu %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="63"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="73"/>
         <source>APT Repositories (%1)</source>
         <translation>Depozite APT (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="69"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="79"/>
         <source>Save</source>
         <translation>Salvează</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="75"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
         <source>Adding...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -204,24 +205,24 @@
         <translation>Feedback</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="108"/>
-        <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="173"/>
+        <location filename="../stacer/app.cpp" line="114"/>
+        <location filename="../stacer/app.cpp" line="121"/>
+        <location filename="../stacer/app.cpp" line="179"/>
         <source>Quit</source>
         <translation>Ieșire</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="110"/>
+        <location filename="../stacer/app.cpp" line="116"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="113"/>
+        <location filename="../stacer/app.cpp" line="119"/>
         <source>Don&apos;t ask again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="116"/>
+        <location filename="../stacer/app.cpp" line="122"/>
         <source>Will the program continue to work in the system tray?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1169,47 +1170,50 @@
         <translation>Donează</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Dashboard</source>
         <translation>Tablou de Bord</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Startup Apps</source>
         <translation>Aplicații la Pornire</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>System Cleaner</source>
         <translation>Curățare Sistem</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Search</source>
         <translation>Căutare</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="89"/>
         <source>Services</source>
         <translation>Servicii</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="90"/>
         <source>Processes</source>
         <translation>Procese</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="91"/>
         <source>Uninstaller</source>
         <translation>Program de Dezinstalare</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Resources</source>
         <translation>Resurse</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Helpers</source>
         <translation type="unfinished"></translation>
     </message>

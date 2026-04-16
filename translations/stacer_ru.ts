@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="95"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="105"/>
         <source>Add Repository</source>
         <translation>Добавить репозиторий</translation>
     </message>
@@ -108,22 +108,23 @@
         <translation>Выберите для удаления или правки.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="24"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="28"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="32"/>
         <source>example %1</source>
         <translation>пример %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="63"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="73"/>
         <source>APT Repositories (%1)</source>
         <translation>Репозиториев APT (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="69"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="79"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="75"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
         <source>Adding...</source>
         <translation>Добавление...</translation>
     </message>
@@ -204,24 +205,24 @@
         <translation>Обратная связь</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="108"/>
-        <location filename="../stacer/app.cpp" line="115"/>
-        <location filename="../stacer/app.cpp" line="173"/>
+        <location filename="../stacer/app.cpp" line="114"/>
+        <location filename="../stacer/app.cpp" line="121"/>
+        <location filename="../stacer/app.cpp" line="179"/>
         <source>Quit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="110"/>
+        <location filename="../stacer/app.cpp" line="116"/>
         <source>Continue</source>
         <translation>Продолжить</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="113"/>
+        <location filename="../stacer/app.cpp" line="119"/>
         <source>Don&apos;t ask again.</source>
         <translation>Более не спрашивать.</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="116"/>
+        <location filename="../stacer/app.cpp" line="122"/>
         <source>Will the program continue to work in the system tray?</source>
         <translation>Продолжить работу программы в системном трее?</translation>
     </message>
@@ -1169,47 +1170,50 @@
         <translation>Пожертвовать</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Dashboard</source>
         <translation>Обзор</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Startup Apps</source>
         <translation>Запускаемые приложения</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>System Cleaner</source>
         <translation>Очистка системы</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
         <source>Search</source>
         <translation>Поиск</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="89"/>
         <source>Services</source>
         <translation>Службы</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="90"/>
         <source>Processes</source>
         <translation>Процессы</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="91"/>
         <source>Uninstaller</source>
         <translation>Удаление пакетов</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Resources</source>
         <translation>Ресурсы</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Helpers</source>
         <translation>Помощники</translation>
     </message>

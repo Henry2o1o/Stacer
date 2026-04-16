@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 
     qApp->setApplicationName("stacer");
     qApp->setApplicationDisplayName("System - Optimierer");
-    qApp->setApplicationVersion("1.6.2");
+    qApp->setApplicationVersion("1.6.3");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
     {
